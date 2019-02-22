@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="login.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div id="login">
+            <h2>LOGIN</h2>
+            <input type="text" id="in_usr" placeholder="ins.username"/><br/>
+            <input type="text" id="in_pwd" placeholder="ins.password"/><br/>
+            <input type="text" id="in_tkn" placeholder="ins.token"/><br/>
+            <button onclick="loginUser()">Login</button>
+            <button onclick="insSaluto()">Data</button><br/>
+            <span id="spMessaggio"></span>
+        </div>
+        <hr>
+        <ul>
+            <li><a id="home" class="vocemenu active" href="#home">Home</a></li>
+            <li><a id = "ServiziBancari" class = "vocemenu" href="serviziBancari.html">Servizi Bancari</a></li>
+            <li><a id="Finanziamenti" class = "vocemenu" href="finanziamenti.html">Finanziamenti</a></li>
+            <li><a id="Investimenti" class = "vocemenu" href="investimenti.html">Investimenti</a></li>
+            <li><a id="Previdenza" class = "vocemenu" href="previdenza.html">Previdenza</a></li>
+            <li><a id="Protezione" class = "vocemenu" href="protezione.html">Protezione</a></li>
+        </ul>
+
+        <div id="contenuto" >
+
+        </div>
+        <script src="login.js" type="text/javascript"></script>
+    </body>
+</html>
